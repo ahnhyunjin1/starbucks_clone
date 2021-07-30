@@ -7,11 +7,27 @@ body{
 }
 header{
     background: #f6f5ef;
+    border-top: 2px solid #000;
 }
 header > div {
     width: 54.5rem;
     margin: 0 auto;
+    position: relative;
 }
 header > div h1 {
+    float: left;
+}
+header > div nav {
+    float: right;
+}
+header > div .spot{
+    position: absolute;
+    right:  0;
+    top: 0;
+}
+header > div nav > ul > li {
+    float: left;
+}
+header > div .spot li {
     float: left;
 }
