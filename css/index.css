@@ -14,8 +14,14 @@ header > div {
     margin: 0 auto;
     position: relative;
 }
+header > div:after {
+    content: "";
+    display: block;
+    clear: both;
+}
 header > div h1 {
     float: left;
+    padding: 22px 0 24px;
 }
 header > div nav {
     float: right;
