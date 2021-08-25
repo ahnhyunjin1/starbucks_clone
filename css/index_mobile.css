@@ -1,5 +1,30 @@
 @charset "utf-8";
 
+html {
+  font-size: 20px;
+}
 body {
-  background: blue;
+  font-size: 1rem;
+}
+header h1 img {
+  width: 2.25rem;
+}
+header > div nav {
+  display: none;
+}
+header > div .spot i {
+  display: inline-block;
+}
+header .total {
+  display: inline-block;
+}
+header > div .spot li:nth-child(2),
+header > div .spot li:nth-child(3),
+header > div .spot li:nth-child(5) {
+  display: none;
+}
+header .total span,
+header > div .spot li span {
+  position: absolute;
+  left: -4000%;
 }
