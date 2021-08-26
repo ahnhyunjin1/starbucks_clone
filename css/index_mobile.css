@@ -1,13 +1,13 @@
 @charset "utf-8";
 
 html {
-  font-size: 20px;
+  font-size: 16px;
 }
 body {
   font-size: 1rem;
 }
 header h1 img {
-  width: 2.25rem;
+  width: 2.8125rem;
 }
 header > div nav {
   display: none;
