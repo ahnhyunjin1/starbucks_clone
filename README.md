@@ -10,3 +10,4 @@
 <li> 21.08.26 반응형을 위한 mobile.css / tablet.css 제작중
 <li> 21.09.21 Does't working swiper ... what`s the problems,,,
 <li> 21.09.26 header & react web page making / nav bar hover react
+<li> 21.10.11 stay / to be continue
